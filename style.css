@@ -1,0 +1,24 @@
+* {
+    border: 1px solid red;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    flex-grow: 7;
+    padding-left: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+li {
+    list-style: none;
+}
