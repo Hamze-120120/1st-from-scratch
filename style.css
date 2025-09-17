@@ -151,6 +151,10 @@ li {
     
 }
 
+.signup-text {
+    max-width: 50ch;
+}
+
 .signup-bt {
     color: white;
     background-color: inherit;
