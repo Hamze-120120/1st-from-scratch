@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    border: 0.5px solid red;
+    
 }
 
 body {
@@ -132,4 +132,40 @@ li {
 
 .quote-author {
     font-weight: bolder;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.signup {
+    background-color: #3882Fa;
+    color: white;
+    display: flex;
+    padding: 25px 80px;
+    border-radius: 8px;
+    gap: 17px;
+    
+}
+
+.signup-bt {
+    color: white;
+    background-color: inherit;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0 12px;
+    height: 30px;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 17.74px;
 }
